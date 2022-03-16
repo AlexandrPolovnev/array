@@ -6,11 +6,8 @@ public class Main {
         {
             int[] arr = new int[3];
             arr[0] = 1;
-            int firstArr = arr[0];
             arr[1] = 2;
-            int secondArr = arr[1];
             arr[2] = 3;
-            int thirdArr = arr[2];
             for (int i = 0; i < arr.length; i++) {
                 if (i == arr.length - 1) {
                     System.out.print(arr[i]);
@@ -34,19 +31,12 @@ public class Main {
         {
             int[] days = new int[7];
             days[0] = 1;
-            int monday = days[0];
             days[1] = 2;
-            int tuesday = days[1];
             days[2] = 3;
-            int wednesday = days[2];
             days[3] = 4;
-            int thursday = days[3];
             days[4] = 5;
-            int friday = days[4];
             days[5] = 6;
-            int saturday = days[5];
             days[6] = 7;
-            int sunday = days[6];
             for (int i = 0; i < days.length; i++) {
                 if (i == days.length - 1) {
                     System.out.print(days[i]);
@@ -59,11 +49,8 @@ public class Main {
         {
             int[] arr = new int[3];
             arr[0] = 1;
-            int firstArr = arr[0];
             arr[1] = 2;
-            int secondArr = arr[1];
             arr[2] = 3;
-            int thirdArr = arr[2];
             for (int i = arr.length - 1; i >= 0; i--) {
                 if (i > 0) {
                     System.out.print(arr[i] + ", ");
@@ -89,19 +76,12 @@ public class Main {
         {
             int[] days = new int[7];
             days[0] = 1;
-            int monday = days[0];
             days[1] = 2;
-            int tuesday = days[1];
             days[2] = 3;
-            int wednesday = days[2];
             days[3] = 4;
-            int thursday = days[3];
             days[4] = 5;
-            int friday = days[4];
             days[5] = 6;
-            int saturday = days[5];
             days[6] = 7;
-            int sunday = days[6];
             for (int i = days.length - 1; i >= 0; i--) {
                 if (i > 0) {
                     System.out.print(days[i] + ", ");
